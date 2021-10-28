@@ -1,10 +1,11 @@
 body {
     margin: 0px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .main {
     height: 100vh;
-    background-color: #DFE6FB;
+    background-color: hsl(225, 100%, 94%);
     background-image: url("./assets/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -15,11 +16,71 @@ body {
 
 .Card {
     background-color: white;
-    width: 450px;
-    height: 658px;
+    width: 300px;
     border-radius: 25px;
 }
 
 .hero {
+    width: 300px;
     border-radius: 25px 25px 0px 0px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: hsl(223, 47%, 23%);
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.music {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    margin: 8%;
+    gap: 5%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+/*
+.music_icon {}
+
+.music_tite {}
+*/
+
+.music_click {
+    color: hsl(245, 75%, 52%);
+}
+
+.music_price {
+    color: hsl(224, 23%, 55%);
+}
+
+.Payment {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 25px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 8%;
+}
+
+.Cancel {
+    margin: 4%;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.attribution {
+    background-color: hsl(225, 100%, 94%);
 }
