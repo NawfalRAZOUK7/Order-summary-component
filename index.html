@@ -15,15 +15,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+
 </head>
 
 <body>
     <div class="main">
+        <img class="hero" src="./assets/illustration-hero.svg" alt="illustration-hero">
         <div class="Card">
-            <div class="illustration_img">
-                <img class="hero" src="./assets/illustration-hero.svg" alt="illustration-hero">
-            </div>
+
             <div class="title">Order Summary</div>
             <div class="text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</div>
             <div class="music">
@@ -34,10 +45,17 @@
                     <div class="music_title">Annual Plan</div>
                     <div class="music_price">$59.99/year</div>
                 </div>
-                <div class="music_click"> <a href="#">Change</a></div>
+                <div class="music_click"><a href="#">Change</a></div>
             </div>
-            <div class="Payment">Proceed to Payment</div>
-            <div class="Cancel">Cancel Order</div>
+            <div class="Payment-btn">
+                <a href="#" class="Payment">
+                    <p>Proceed to Payment</p>
+                </a>
+                <a href="#" class="Cancel">
+                    <p>Cancel Order</p>
+                </a>
+            </div>
+
         </div>
     </div>
     <div class="attribution">
