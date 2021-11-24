@@ -43,19 +43,12 @@ body {
     display: flex;
     flex-direction: row;
     margin: 8%;
-    gap: 5%;
+    gap: 10%;
     height: 10vh;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
-
-
-/*
-.music_icon {}
-
-.music_tite {}
-*/
 
 .music_click {
     color: hsl(245, 75%, 52%);
